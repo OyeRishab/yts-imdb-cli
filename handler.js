@@ -42,7 +42,7 @@ function displayMovie(data) {
       console.log("Quality :", torrent.quality);
       console.log("Size :", torrent.size);
       console.log(
-        "Link : https://yts.mx/torrent/download/" + torrent.hash,
+        "Link : https://yts.proxybit.ink/torrent/download/" + torrent.hash,
         "\n"
       );
     }

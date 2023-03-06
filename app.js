@@ -9,7 +9,6 @@ yargs.command({
   },
   handler: function (argv) {
     searchMovie(argv["title"]);
-    console.log(argv);
   },
 });
 yargs.parse();
